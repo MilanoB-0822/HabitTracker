@@ -1,4 +1,3 @@
-import { View } from "react-native-reanimated/lib/typescript/Animated";
 import {
     SafeAreaView,
     ScrollView,
@@ -6,9 +5,10 @@ import {
     StyleSheet,
     Text,
     useColorScheme,
+    View
   } from 'react-native';
 
-function Home(){
+function HomeScreen(){
     return(
         <SafeAreaView>
             <Text>Sup, jonge!</Text>
@@ -16,4 +16,4 @@ function Home(){
     )
 }
 
-export default Home;
+export default HomeScreen;
